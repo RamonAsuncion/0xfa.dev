@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0xFA</title>
+    <link
+      id="favicon-link"
+      rel="icon"
+      type="image/svg+xml"
+      href="images/favicon.svg"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <span
+            class="brand-swatch"
+            id="brand-swatch"
+            role="button"
+            tabindex="0"
+            aria-label="brand color swatch"
+            title="#FA0055"
+          ></span>
+          0xFA
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html"> Contact </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/login">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="content">
+      <div class="narrow">
+        <p style="margin-top: 1rem; color: #dcdcdc">
+          Hi, I’m Ramon. I enjoy experimenting with projects and systems.
+        </p>
+        <p>
+          This site is a minimal playground. A place where I run and document
+          projects I'm hosting: servers, APIs, blogs, bots, small self-hosted
+          services, AI experiments, VPNs, Tor/Bitcoin/Monero nodes, email, and
+          game servers.
+        </p>
+        <p style="margin-top: 0.5rem; color: #dcdcdc">
+          I’m hoping to stream live on YouTube soon, watch this space:
+          <a
+            href="https://www.youtube.com/@meanmetrics"
+            style="
+              color: #bfbfbf;
+              text-decoration: underline;
+              margin-left: 0.35rem;
+            "
+            >YouTube (live)</a
+          >
+        </p>
+        <!-- converter moved into footer -->
+        <div class="converter-center">
+          <div class="hex-converter" aria-hidden="false">
+            <label
+              style="
+                display: inline-block;
+                font-family: monospace;
+                color: #dcdcdc;
+              "
+            >
+              <input
+                id="hex-input"
+                value="0xFA"
+                style="
+                  background: transparent;
+                  border: 0;
+                  color: #dcdcdc;
+                  font-family: monospace;
+                  width: 5ch;
+                  outline: none;
+                "
+              />
+            </label>
+            <span
+              id="hex-output"
+              style="
+                color: #bfbfbf;
+                margin-left: 0.5rem;
+                font-family: monospace;
+              "
+            ></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Bootstrap JS (bundle includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/site.js"></script>
+  </body>
+</html>
